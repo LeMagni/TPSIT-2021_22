@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>New Social</title>
+    </head>
+    <body>
+        <h1>New Social</h1>
+
+        <div>
+            <form method="post">
+                <input type="text" placeholder="funzione" name="stato" id="stao">
+                <input type="submit" value="Invia">
+            </form>
+            {% if error %}
+            <p class="error"><strong></strong> {{ error }}
+            {% endif %}
+        </div>
+        
+    </body>
+</html>
